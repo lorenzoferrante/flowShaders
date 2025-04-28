@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.react-flow__node {
+  box-shadow: 0 2px 6px 0 rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.number-input {
+  flex-direction: column;
+  justify-content: first baseline;
+}
